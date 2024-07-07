@@ -1,0 +1,80 @@
+#bodyInfoContainer {
+    padding: 20;
+    background-color: #FFFFFF RGB;
+
+}
+
+#titleUserInfo{
+    color: #02293A;
+    background-color: #FFFFFF;
+    text-shadow: 2px 1px 1px #488C9B;
+    font-size: 3em;
+    border-radius: 80px;
+    border: 2px solid #02293A;
+    margin-bottom: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#infoContainer {
+    margin-top: 2em;
+}
+
+#userName {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+#userCoord {
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+#assist {
+    margin-top: 10em;
+}
+
+.updateInfoUser {
+    background-color:#02293A !important;
+    border: 2px solid #488C9B
+
+}
+
+.updatePassword {
+    background-color:#02293A !important;
+    border: 2px solid #488C9B
+}
+
+.InfoPersonnelle {
+    background-color: #02293A RGB;
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.InfoPersonnelle p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 780px){
+
+    #titleUserInfo {
+        font-size: 1.7em;
+
+    }
+
+    #userName {
+        margin-top: 3em;
+        font-size: 1.3em;
+    }
+
+    #userCoord {
+        font-size: 1.3em;
+        margin-top: 2em;
+    }
+    
+    
+}

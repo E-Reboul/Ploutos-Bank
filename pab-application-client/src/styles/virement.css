@@ -1,0 +1,83 @@
+#virement-body {
+    background-color: #ffffff;
+    color: #02293A;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#liste {
+    display:grid;
+    flex-direction: row-reverse;
+    width: 200em;
+}
+
+#virement-card {
+    padding: 1em;
+}
+
+#virement-h1 {
+    color: #02293A;
+}
+
+#button {
+    background-color:#02293A;
+    border: none;
+}
+
+#button:hover {
+    background-color: #02293A;
+    border: 1px solid #488C9B;
+}
+.Button {
+    background-color:#02293A;
+    border: none;
+
+}
+
+#virement-alert {
+    background-color: #DB7800;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#virement-form-group label {
+    color: #02293A;
+    font-weight: bold;
+}
+
+#virement-form-control {
+    border: 1px solid #02293A;
+}
+
+#virement-modal-content {
+    background-color: #ffffff;
+    color: #02293A;
+}
+
+#virement-modal-header {
+    background-color: #488C9B;
+    color: #ffffff;
+}
+
+#virement-modal-footer {
+    background-color: #488C9B;
+    color: #ffffff;
+}
+
+#buttonSendVir {
+    background-color: #02293A;
+    border: 1px solid #488C9B
+}
+
+.buttonVir {
+    background-color: #02293A;
+    border: 1px solid #488C9B;
+}

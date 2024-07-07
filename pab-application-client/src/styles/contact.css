@@ -1,0 +1,69 @@
+#bankInfoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#bankTime {
+  display: flex;
+  justify-content: center;
+}
+
+#buttonMessage {
+  background-color: #02293A;
+  border-color: #488C9B;
+}
+
+#messageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.bankContact {
+    width: 45.4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  
+  .semaine {
+    width: 45.4em;
+    padding: 2em;
+    
+  }
+  
+  .conseiller {
+    border-top: solid #02293A;
+    border-bottom: solid #02293A;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+   
+  }
+  
+  .Message {
+    justify-content: center;
+    width: 35em;
+    
+    
+
+  }
+  
+  .contactTitle {
+    text-align: center;
+
+  }
+
+  @media screen and (max-width: 780px) {
+
+    #messageContainer {
+      margin-left: 9.5em;
+      
+    }
+
+    .Message {
+      width: 14em;
+      margin-left: -20vh;
+      
+  
+    }
+    
+  }

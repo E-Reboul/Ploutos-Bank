@@ -1,0 +1,58 @@
+.documents {
+  font-size: 2em;
+}
+
+.custom-tab {
+  background-color: RGB(255, 255, 255);
+  color: #6c6c6c;
+  text-shadow: 1px 1px 1px #000000;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+  padding: 20px;
+  font-size:80% ;
+  margin-right: 10px;
+}
+
+h1.documents {
+  margin: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+  color: RGB(72, 140, 155);
+  background-color: RGB(255, 255, 255);
+  text-shadow: 5px 1px 1px #02293A;
+  font-size: 4rem;
+  border-radius: 80px;
+
+  
+}
+#buttonReg{
+  background-color: #02293A;
+}
+.navbar1{
+  padding-top: 10%;
+  color: RGB(72, 140, 155);
+}
+Button{
+  padding-top: 10%;
+  color: RGB(72, 140, 155);
+  background-color: RGB(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .documents {
+    font-size: 1.5em; 
+  }
+
+  .custom-tab {
+    padding: 10px;
+  }
+
+  h1.documents {
+    font-size: 2.5rem; 
+  }
+
+  .custom-tab p {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,65 @@
+div #cardBody {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  /* Deux colonnes de largeur égale */
+
+
+}
+
+#titleSelect {
+  text-align: center;
+  color: black;
+  padding-top: 0.5em;
+
+}
+
+#cardContainer {
+  width: 28em;
+  height: 10em;
+
+}
+
+#headerCard {
+  background-color: #02293A;
+  color: #FFFFFF;
+}
+
+#accountCard {
+  height: 6em;
+
+}
+
+
+#accountCardInfos {
+  font-size: 0.8em;
+  font-size: 1.2em;
+
+}
+
+#accountBalance {
+  grid-column: 2;
+  text-align: center;
+  font-size: 1.6em;
+
+
+}
+
+@media screen and (max-width: 780px) {
+
+  #cardContainer {
+    width: 22em;
+  }
+
+
+  #accountCardInfos {
+    font-size: 0.8em;
+
+  }
+
+  #accountBalance {
+    font-size: 0.8em;
+
+
+  }
+
+}

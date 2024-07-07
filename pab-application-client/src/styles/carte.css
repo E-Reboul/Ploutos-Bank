@@ -1,0 +1,11 @@
+#containerCarte {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+   
+}
+
+.ClasseCarte{
+    display: inline-block;
+    text-align: center;
+}

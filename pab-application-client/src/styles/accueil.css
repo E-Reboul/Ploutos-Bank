@@ -1,0 +1,29 @@
+#soldAccueil {
+    margin-top: 1em;
+}
+
+#graphContainer {
+    margin-top: 2em;
+}
+
+#graphButton {
+    margin-top: 1em;
+}
+
+#graph {
+    margin-top: 2em;
+    
+}
+
+.CompteSolde {
+    margin-top: 2em;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+
+.buttonAccueil {
+    background-color: #02293A !important;
+    border: 1px solid #488C9B;
+    margin-top: 2em;
+}
